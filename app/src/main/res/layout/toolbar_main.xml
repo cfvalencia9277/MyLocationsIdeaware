@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@color/bluebacktoolbar"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4">
+        <ImageView
+            android:padding="5dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/unnamed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:paddingTop="5dp"
+            android:layout_weight="2.5"
+            android:layout_width="0dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:text="@string/my_places_title"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/spotme_btn"
+            android:background="@color/spotmeback"
+            android:textColor="@color/bluebacktoolbar"
+            android:text="@string/spotme"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:background="@color/toolbarspaceview"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@color/bluebacktoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/savedplacebtn"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="@string/save_place"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:id="@+id/showplacesbtn"
+            android:textSize="18sp"
+            android:textColor="@color/letterblue"
+            android:textAlignment="center"
+            android:text="@string/show_places"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/bluebacktoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <View
+            android:id="@+id/save_places_bottom_line"
+            android:background="@color/spotmeback"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="2dp" />
+        <View
+            android:id="@+id/show_places_bottom_line"
+            android:background="@color/bluebacktoolbar"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="2dp" />
+
+    </LinearLayout>
+</LinearLayout>

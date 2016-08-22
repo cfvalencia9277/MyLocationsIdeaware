@@ -1,0 +1,51 @@
+<RelativeLayout
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MergeRootFrame">
+
+    <include android:id="@+id/toolbar_main" layout="@layout/toolbar_main"/>
+    <fragment
+        android:id="@+id/map"
+        android:layout_below="@+id/toolbar_main"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.fabian.mylocationsideaware.MapsActivity" />
+
+    <ImageView
+        android:id="@+id/findmebtn"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@+id/toolbar_main"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/findme"/>
+    <ImageView
+        android:id="@+id/addplacebtn"
+        android:layout_margin="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/add"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_below="@+id/toolbar_main"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/listitemview"
+            >
+
+            </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>
+
+

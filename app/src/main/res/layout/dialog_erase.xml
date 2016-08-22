@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/dialogButtonErase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Erase "
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@+id/dialogButtonCancel"
+
+
+            />
+        <Button
+            android:layout_alignParentRight="true"
+            android:id="@+id/dialogButtonCancelErase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Cancel "
+            android:layout_margin="5dp"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

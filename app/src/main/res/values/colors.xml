@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="letterblue">#99ebff</color>
+    <color name="spotmeback">#ffd633</color>
+    <color name="toolbarspaceview">#80e5ff</color>
+    <color name="bluebacktoolbar">#1aa3ff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

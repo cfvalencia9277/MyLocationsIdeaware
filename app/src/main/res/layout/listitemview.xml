@@ -1,0 +1,52 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="5">
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:id="@+id/img"
+        android:background="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/img"
+        android:id="@+id/linearlay"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:weightSum="2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/placename"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/placecity"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+    </LinearLayout>
+    <Button
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@+id/erasebtn"
+        android:id="@+id/editbtn"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <Button
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/erasebtn"
+        android:background="@drawable/delete"
+        android:layout_gravity="center_vertical"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</RelativeLayout>

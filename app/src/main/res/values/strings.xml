@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyLocationsIdeaware</string>
+    <string name="title_activity_maps">Test IdeaWare</string>
+    <string name="spotme">SPOT ME!</string>
+    <string name="save_place">SAVE PLACE</string>
+    <string name="show_places">SHOW MY PLACES</string>
+    <string name="erase_place">Erase Place?</string>
+    <string name="edit_place">Edit Place Info</string>
+    <string name="my_places_title">My Places</string>
+</resources>
